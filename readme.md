@@ -18,11 +18,13 @@ Based on modified ESP32-4848S040 display module
   <img src="https://img.shields.io/badge/LVGL-8.3-green.svg" alt="LVGL"/>
   <img src="https://img.shields.io/badge/NMEA2000-✔-brightgreen.svg" alt="NMEA2000"/>
   <img src="https://img.shields.io/badge/Hardware-ESP32--4848S040-orange.svg" alt="Hardware"/>
+  
 </p>
 
+<p align="center">
 [![GitHub issues](https://img.shields.io/github/issues/HugoJunkers/Marine-MFD-ESP32-4848S040)](https://github.com/HugoJunkers/Marine-MFD-ESP32-4848S040/issues)
 [![GitHub discussions](https://img.shields.io/github/discussions/HugoJunkers/Marine-MFD-ESP32-4848S040)](https://github.com/HugoJunkers/Marine-MFD-ESP32-4848S040/discussions)
-
+</p>
 ---
 
 ## ⚠️ Important Safety Notice & Disclaimer
