@@ -271,5 +271,22 @@ Connect the USB‑to‑UART programmer (the board has a built‑in USB‑C port)
 
 
 ---
+## ❓ Help & Contributing
 
-## 🗂️ Repository Structure
+### 🐞 Report a bug or view known issues
+→ **[GitHub Issues](https://github.com/HugoJunkers/Marine-MFD-ESP32-4848S040/issues)** (please search first)
+
+### 💬 Ask for help (modification, wiring, software)
+→ **[GitHub Discussions – Q&A](https://github.com/HugoJunkers/Marine-MFD-ESP32-4848S040/discussions/categories/q-a)**
+
+### 💡 Suggest a new feature
+→ **[GitHub Discussions – Ideas](https://github.com/HugoJunkers/Marine-MFD-ESP32-4848S040/discussions/categories/ideas)**
+
+### 📸 Show your built MFD
+→ **[GitHub Discussions – Show and tell](https://github.com/HugoJunkers/Marine-MFD-ESP32-4848S040/discussions/categories/show-and-tell)**
+
+### 📖 Known limitations (read only)
+→ **[Discussions – Known issues](https://github.com/HugoJunkers/Marine-MFD-ESP32-4848S040/discussions/categories/known-issues-read-only)**
+
+### ✏️ Contribute code or documentation
+→ Please read [`CONTRIBUTING.md`](CONTRIBUTING.md) first.
