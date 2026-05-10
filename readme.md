@@ -1,12 +1,3 @@
-<!--
-Copyright (c) 2026 – Marine MFD Project
-Based on modified ESP32-4848S040 display module
--->
-
-<p align="center">
-  <img src="images/logo.png" alt="Marine MFD Logo" width="200"/>
-</p>
-
 <h1 align="center">⛵ Marine MFD – NMEA2000 Smart Display</h1>
 <p align="center">
   <strong>Professional boat instrument panel – built from a modified <code>ESP32-4848S040</code> touch display</strong><br/>
@@ -18,14 +9,9 @@ Based on modified ESP32-4848S040 display module
   <img src="https://img.shields.io/badge/LVGL-8.3-green.svg" alt="LVGL"/>
   <img src="https://img.shields.io/badge/NMEA2000-✔-brightgreen.svg" alt="NMEA2000"/>
   <img src="https://img.shields.io/badge/Hardware-ESP32--4848S040-orange.svg" alt="Hardware"/>
-  
+  <img src="https://img.shields.io/github/issues/HugoJunkers/Marine-MFD-ESP32-4848S040" alt="GitHub issues"/>
+  <img src="https://img.shields.io/github/discussions/HugoJunkers/Marine-MFD-ESP32-4848S040" alt="GitHub discussions"/>
 </p>
-
-<p align="center">
-[![GitHub issues](https://img.shields.io/github/issues/HugoJunkers/Marine-MFD-ESP32-4848S040)](https://github.com/HugoJunkers/Marine-MFD-ESP32-4848S040/issues)
-[![GitHub discussions](https://img.shields.io/github/discussions/HugoJunkers/Marine-MFD-ESP32-4848S040)](https://github.com/HugoJunkers/Marine-MFD-ESP32-4848S040/discussions)
-</p>
----
 
 ## ⚠️ Important Safety Notice & Disclaimer
 
