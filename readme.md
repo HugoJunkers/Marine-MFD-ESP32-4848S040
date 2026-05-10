@@ -20,6 +20,9 @@ Based on modified ESP32-4848S040 display module
   <img src="https://img.shields.io/badge/Hardware-ESP32--4848S040-orange.svg" alt="Hardware"/>
 </p>
 
+[![GitHub issues](https://img.shields.io/github/issues/HugoJunkers/Marine-MFD-ESP32-4848S040)](https://github.com/HugoJunkers/Marine-MFD-ESP32-4848S040/issues)
+[![GitHub discussions](https://img.shields.io/github/discussions/HugoJunkers/Marine-MFD-ESP32-4848S040)](https://github.com/HugoJunkers/Marine-MFD-ESP32-4848S040/discussions)
+
 ---
 
 ## ⚠️ Important Safety Notice & Disclaimer
