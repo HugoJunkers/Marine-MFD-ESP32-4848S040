@@ -1,0 +1,57 @@
+
+# ----------------------------------------------------------------------
+# PlatformIO
+# ----------------------------------------------------------------------
+# Der .pio/ Ordner enthält alle kompilierten Dateien und heruntergeladenen 
+# Bibliotheken. Er ist extrem groß und wird bei jedem Nutzer automatisch 
+# neu generiert, daher darf er auf keinen Fall in Git landen.
+.pio/
+.pioenvs/
+.piolibdeps/
+libdeps/
+
+# ----------------------------------------------------------------------
+# VSCode (Visual Studio Code)
+# ----------------------------------------------------------------------
+# Ignoriere den versteckten VSCode-Ordner mit lokalen C++ Konfigurationen.
+# PlatformIO generiert die c_cpp_properties.json sowieso bei jedem Start neu.
+.vscode/
+!.vscode/settings.json
+!.vscode/extensions.json
+
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch
+
+# ----------------------------------------------------------------------
+# Kompilierte C/C++ Dateien & Build Artefakte
+# ----------------------------------------------------------------------
+*.o
+*.obj
+*.out
+*.elf
+*.hex
+*.bin
+*.map
+*.a
+
+# ----------------------------------------------------------------------
+# Betriebssystem-spezifische Dateien (macOS / Windows)
+# ----------------------------------------------------------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ----------------------------------------------------------------------
+# Temporäre Dateien und Backups
+# ----------------------------------------------------------------------
+*.bak
+*.tmp
+*~
+*.swp
