@@ -119,20 +119,15 @@ Arduino_DataBus *bus = new Arduino_SWSPI(
    
 	
 	/* etwas besseres timing*/
-	 Arduino_ESP32RGBPanel *rgbpanel = new Arduino_ESP32RGBPanel(
-	    /* DE */ 18, /* VSYNC */ 17, /* HSYNC */ 16, /* PCLK */ 21,
-	    /* R0 */ 11, /* R1 */ 12, /* R2 */ 13, /* R3 */ 14, /* R4 */ 0,
-	    /* G0 */ 8, /* G1 */ 20, /* G2 */ 3, /* G3 */ 46, /* G4 */ 9, /* G5 */ 10,
-	    /* B0 */ 4, /* B1 */ 5, /* B2 */ 6, /* B3 */ 7, /* B4 */ 15,
-	    /* hsync_polarity */ 1,
-	    /* hsync_front_porch */ 80,   // Geändert
-	    /* hsync_pulse_width */ 8,
-	    /* hsync_back_porch */ 80,
-	    /* vsync_polarity */ 1,
-	    /* vsync_front_porch */ 18,   // Geändert
-	    /* vsync_pulse_width */ 2,    // (vsync_len laut Forum oft 2, 8 ist aber ein typischer Wert und sollte erstmal bleiben)
-	    /* vsync_back_porch */ 30,    // Geändert
-	    /* PCLK */ 20000
+	Arduino_ESP32RGBPanel *rgbpanel = new Arduino_ESP32RGBPanel(
+		18 /* DE */, 17 /* VSYNC */, 16 /* HSYNC */, 21/* PCLK */,
+		4 /* R0 */, 5 /* R1 */, 6 /* R2 */, 7 /* R3 */, 15 /* R4 */,
+		8 /* G0 */, 20 /* G1 */, 3 /* G2 */, 46 /* G3 */, 9 /* G4 */, 10 /* G5 */,
+		11 /* B0 */, 12 /* B1 */, 13 /* B2 */, 14 /* B3 */, 0 /* B4 */,
+		1 /* hsync_polarity */, 10 /* hsync_front_porch */, 8 /* hsync_pulse_width */, 50 /* hsync_back_porch */,
+		1 /* vsync_polarity */, 10 /* vsync_front_porch */, 8 /* vsync_pulse_width */, 20 /* vsync_back_porch */,
+		0 /* pclk_active_neg */, 14500000 /*prefer_speed*/, 0 /* useBigEndian */, 0 /* de_idle_high */,
+		0 /* pclk_idle_high */, 40*480 /* bounce_buffer_size_px */
 	);
 
     
